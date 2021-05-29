@@ -275,6 +275,16 @@ body, .upload-container, .drop-zone {
     transform: translate(50%, 0);
 }
 
+.column-left {
+    width: 45%;
+}
+
+.column-right {
+    float: right;
+    width: 50%;
+    text-align: end;
+}
+
 @media screen and (max-width:1000px) {
     :root {
         --container-width: 320px;
@@ -287,5 +297,12 @@ body, .upload-container, .drop-zone {
     }
     .email-container .filed {
         width: 300px;
+    }
+    .column-left {
+        width: 100%;
+    }
+    .logo {
+        top: 2em;
+        left: 8.1em
     }
 }
