@@ -46,7 +46,7 @@ body, .upload-container, .drop-zone {
     background: #ffffff;
     border-radius: 25px;
     box-shadow: 0px 20px 20px 0px #00000017;
-    width: 90%;
+    /* width: 90%; */
 }
 
 .drop-zone {
